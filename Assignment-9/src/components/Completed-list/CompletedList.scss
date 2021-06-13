@@ -1,0 +1,28 @@
+.completed-list-div {
+    background-color: rgb(183, 245, 121);
+    border-radius: 5px;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-body-completed {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(67, 230, 18);
+    padding: 25px;
+    margin: 25px;
+    border: black; 
+    flex-wrap: wrap;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-content: flex-start;
+    border-radius: 5px; 
+    box-shadow: 5px 5px;
+
+}
+

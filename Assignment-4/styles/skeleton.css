@@ -1,0 +1,237 @@
+/*
+    Setting up basics
+        1. Home-background
+        2. Header section 
+        3. Pricing Tabs
+        4. Bottom Section
+
+*/
+
+section {
+    text-align: center; 
+}
+
+
+/*
+    Home page background
+*/
+.home-background {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.993);
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*
+    Header section for the page. Adding padding and border-radius
+*/ 
+
+.header-section {
+    padding: 10px;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 1px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50px;
+}
+
+.nav-tab {
+
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:10px;
+    left:10px;
+    background-color: ghostwhite;
+    border-radius: 50px;
+    
+}
+
+.choose-us-section {
+    display: flex;
+    justify-content: right;
+}
+
+.section-headers {
+    
+    display: flex;
+    justify-content : center;
+    align-items: center;
+
+}
+
+
+
+.home-section {
+    background-color: #11ABB0;
+    border-radius: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+
+}
+
+.services-section {
+    border-radius: 150px;
+    margin: 10px;
+
+    background-color: blanchedalmond;
+    padding: 50px;
+}
+
+.nav-tab {
+
+    padding: 10px;
+    border-width: 1px;
+
+}
+
+.offer-section {
+    background-color: #11ABB0;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 150px;
+    margin: 50px;
+
+
+}
+
+/* About Company Section */
+
+.about-company-section {
+    border-radius: 3000px;
+    margin: 100px;
+    background-color: cornsilk;
+
+}
+
+
+
+/* Pricing table settings  */
+
+.pricing-section {
+    display: flex;
+    justify-content : space-around;
+    
+}
+
+.pricing-tab {
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+    font: 16px/30px 'opensans-bold', sans-serif;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+[div-type="card"]:hover {
+
+    border-color: #11ABB0;
+   
+
+}
+
+
+    /* Divs section. Combinators demo */
+
+    .services-blocks {
+       display: flex;
+       justify-content: center;
+       flex-direction: row;
+    }
+
+    .services-blocks > div:hover {
+        border-color: #11ABB0;
+        background-color :rgba(143,150,162,0.5);   
+        border-radius: 50px; 
+    }
+
+/* Testimonial */
+.testimonial-section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 3000px;
+    margin: 100px;
+    background-color: lavenderblush;
+}
+
+
+
+
+/* Form Settings */
+
+input, textarea {
+
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(228, 222, 222);
+    border-radius: 10px;
+    
+}
+
+form {
+    border-style: solid;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    padding: 100px;
+    background-color:rgb(240, 240, 255);
+    display: flex;
+    justify-content: center;
+    border-radius: 2000px;
+    margin: 100px;
+}
+
+.form-div {
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: ghostwhite;
+    border-radius: 100px;
+    margin: 100px; 
+  
+}
+
+
+/* Bottom Section. Settings and footers */
+
+.bottom-links-section {
+    border-radius: 150px;
+    margin: 100px;
+    background-color: ghostwhite;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.footer-section {
+    padding: 10px;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 1px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+/*
+    Chat-box button
+*/
+.chat-box-section {
+    position: fixed;
+    bottom:10px;
+    right: 16px;
+
+}

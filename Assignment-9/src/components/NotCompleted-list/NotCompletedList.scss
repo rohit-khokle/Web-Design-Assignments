@@ -1,0 +1,44 @@
+.notCompletedList {
+    background-color: rgb(250, 111, 86);
+    border-radius: 5px;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.card-body {
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(230, 49, 18);
+    padding: 25px;
+    margin: 25px;
+    border: black; 
+    flex-wrap: wrap;
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-content: flex-start;
+    border-radius: 5px; 
+    box-shadow: 5px 5px;
+   
+
+}
+
+.markDonebtnStyle {
+
+    width:  40px;
+    height: 40px;
+    background-color:rgb(230, 49, 18);
+    border:darkslategrey;
+    cursor: pointer;
+}
+
+.card-title {
+
+    cursor: pointer;
+
+}

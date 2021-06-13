@@ -1,0 +1,22 @@
+{
+  "name": "assignment-6-rohit-khokle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/main.scss --output dist/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2021/assignment-6-rohit-khokle.git"
+  },
+  "author": "Rohit Khokle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2021/assignment-6-rohit-khokle/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2021/assignment-6-rohit-khokle#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

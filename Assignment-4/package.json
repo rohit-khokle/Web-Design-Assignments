@@ -1,0 +1,20 @@
+{
+  "name": "assignment4-rohit-khokle",
+  "version": "1.0.0",
+  "description": "Name - Rohit Khokle <br>\r NUID - 001029550 <br>",
+  "main": "index.js",
+  "scripts": {
+    "scss" : "node-sass scss_folder/main.scss --output dist" 
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neu-mis-info6150-spring-2021/assignment-4-rohit-khokle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neu-mis-info6150-spring-2021/assignment-4-rohit-khokle/issues"
+  },
+  "homepage": "https://github.com/neu-mis-info6150-spring-2021/assignment-4-rohit-khokle#readme"
+}

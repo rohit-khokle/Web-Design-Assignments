@@ -1,0 +1,138 @@
+/*
+    Stylings for:
+        1. Texts, fonts
+        2. Buttons
+
+*/
+
+/*
+    Inherit set-font in buttons
+*/
+    %set-font{
+        font: 16px/30px 'opensans-bold', sans-serif;
+    }
+    /*
+        Setting common font throughout the page
+    */
+    * {
+        font-family: $font-stack;
+    }
+    *::selection {
+        background-color: $signature-color;
+        
+    }
+
+    [text_type^="home-sec"] ::selection {
+
+     background-color: $home-section-selection-color;
+
+    }
+
+    [text_type = "color_me"]{
+        color : $signature-color;
+
+    }
+
+
+    [text_type = "home-section-heading"]{
+        color :  $home-section-color;
+        text-align: left;
+        font: bolder;
+    }
+
+    
+    [text_type = "home-section-para"]{
+        color :   $home-section-color;
+        text-align: left;
+        font: caption;
+    }
+
+    [text_type = "color_me_header"]{
+        color :$signature-color;
+        text-align: left;
+        font: bolder;
+    }
+    
+
+    [text_type = "nav_bar"]{
+        text-align: right;
+        font: bolder;
+    }
+
+    .make-me-fancy{
+        @extend %set-font;
+        background: $signature-color;
+        color:   $make-me-fancy-color;
+        border: none;
+        padding: 5px/2px; // 2.5px;   
+    }
+
+    [text_type="about-us-para"]::first-letter {
+        font-size: x-large;
+        
+    }
+
+    /* 
+                 Button settings 
+    */
+
+    [button-type="info-button"]
+    {
+       @extend %set-font;
+       background: $signature-color;
+       color:   $make-me-fancy-color;
+       border: none;
+       cursor: pointer;
+       border-radius: 30px;
+       margin-bottom: 18px;
+       padding: 10px;
+
+    }
+    /* 
+        Function called. Power function. 
+        Inheritance example
+    */
+    [button-type="get-in-touch-button"]
+    {
+      @extend %set-font;
+       background:  $button-getInTouch-color;
+       color: rgb(pow(2,3),pow(2,3), pow(2,3));
+       border: none;
+       cursor: pointer;
+       border-radius: 30px;
+       margin-bottom: 18px;
+       
+    }
+
+    [button-type="buy-button"]
+    {
+        @extend %set-font;
+        background: $signature-color;
+        color:  $make-me-fancy-color;
+        border:  $ghost-me-white;
+        text-align: center;
+        cursor: pointer;
+        
+
+    }
+    
+    .button:hover,
+    button:hover {
+       background: $button-active-color;
+       color:  $make-me-fancy-color;
+    }
+    
+    .button:active,
+    button:active {
+       background: $button-active-color;
+       color:  $make-me-fancy-color;
+    }
+    
+    .button.full-width,
+    button.full-width{
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+    

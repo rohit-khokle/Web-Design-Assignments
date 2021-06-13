@@ -1,0 +1,88 @@
+body {
+    margin: auto;
+}
+
+.outerContainer {
+    display: flex;
+    justify-content: center;
+
+}
+.addNewContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.completedList {
+    background-color: rgb(183, 245, 121);
+    
+    border-radius: 5px;
+    height: 1000px;
+    width: 1000px; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.notCompletedList {
+    background-color: rgb(250, 111, 86);
+    border-radius: 5px;
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.field {
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 10px; 
+}
+
+.div-card-notcomplete {
+ 
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(230, 49, 18);
+    padding: 25px;
+    margin: 25px;
+    border: black; 
+    cursor: pointer;
+
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.div-card-complete {
+
+    display: flex;
+    border-radius: 10px;
+    background-color: rgb(67, 230, 18);
+    padding: 25px;
+    margin: 25px;
+    border: black; 
+    display: flex;
+  
+    flex-direction: column;  
+    justify-content: flex-start;
+    align-content: flex-start;
+    cursor: pointer;
+}
+
+.completed-check {
+    padding:10px;
+    border-style: dashed;
+    cursor: pointer;
+}
+
+.addNewContainer {
+    display: flex;
+    background-color: rgb(235, 151, 92);
+    border-radius: 10px;
+    padding: 50px
+}

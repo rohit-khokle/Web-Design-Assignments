@@ -1,0 +1,278 @@
+/*
+    Setting up basics
+        - Home-background
+        - Navigation Section
+        - Header Section
+        - Service Section
+        - Offer Section
+        - Price Section
+        - Testimonial Section
+        - Form Settings Section
+        - Bottom Section
+        - Footer Section
+
+
+*/
+
+section {
+    text-align: center; 
+    display: flex;
+}
+
+
+/*
+    Home page background
+*/
+.home-background {
+    border-radius: 20px;
+    background-color: $background_color;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*
+    Header section for the page. Adding padding and border-radius
+*/ 
+
+.header-section {
+    
+    @include flex-it-up(flex, space-between);
+    border-color: $header-section-color;
+
+    border-radius: 50px;    
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+ 
+}
+
+/*
+    Navigation Section
+*/
+
+.nav-tab {
+    @include flex-it-up(flex, space-between);
+    background-color: $ghost-me-white;
+
+    border-radius: 50px;
+    position: sticky;
+    top:10px;
+    left:10px;    
+}
+ /*Example of nested */
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    a {
+    
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+  
+
+
+.choose-us-section {
+    @include flex-it-up(flex, right);
+}
+
+.section-headers {
+    @include flex-it-up(flex, center);
+    align-items: center;
+}
+
+
+/*
+    Home Section. Mixin example
+*/
+.home-section {
+    background-color: $signature-color;    
+    @include round-up-cards(10px  , 150px);
+    @include flex-it-up(flex, space-around);
+    align-content: flex-end;
+}
+
+/*
+    Services Section
+*/
+
+.services-section {
+    @include round-up-cards(10px  , 150px);
+    background-color: $service-section-color;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+/*
+    Navigation Tab
+*/
+
+.nav-tab {
+    padding: 10px;
+    border-width: 1px;
+}
+
+/*
+    Offer Section
+*/
+
+.offer-section {
+    @include round-up-cards(50px  , 150px);    
+    @include flex-it-up(flex, center);
+    background-color: $signature-color;
+    padding: 10px;
+    border-width: 1px;
+    align-content: center;
+}
+
+/* About Company Section */
+
+.about-company-section {
+    @include flex-it-up(flex, space-around);
+    @include round-up-cards(100px , 3000px);
+    background-color: $about-company-color;
+ 
+    align-items: center;
+    flex-direction: row;
+}
+
+
+
+/* Pricing table settings  */
+
+.pricing-section {
+    @include flex-it-up(flex, space-around);
+}
+
+.pricing-tab {
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+    font: 16px/30px 'opensans-bold', sans-serif;
+    color: black;
+    margin: 10px;
+    cursor: pointer;
+    width:500px;
+    @include flex-it-up(flex, center);
+    flex-direction: column;
+
+}
+
+[div-type="card"]:hover {
+    border-color: $signature-color;
+}
+
+
+    /* Divs section. Combinators demo */
+
+    .services-blocks {
+
+    @include flex-it-up(flex, center);
+       flex-direction: row;
+    }
+
+    .services-blocks > div:hover {
+        border-color: $signature-color;
+        background-color : $hover-color;   
+        border-radius: 50px; 
+    }
+
+/* Testimonial */
+.testimonial-section {
+    @include flex-it-up(flex, center);
+    @include round-up-cards(100px, 3000px);
+    background-color: $testimonial-color;
+    flex-direction: column;
+}
+
+
+
+
+/* Form Settings */
+
+input, textarea {
+    @include round-up-cards(10px, 10px);
+    padding: 20px;
+    background-color:$input-area-color;
+}
+
+form {
+    @include flex-it-up(flex,center);
+    @include round-up-cards(1px, 50px);
+    background-color: $form-background-color;
+    border-style: solid;  
+    flex-direction: column;
+    width: 300px;
+    padding:100px;
+   
+}
+
+.form-section {
+    @include flex-it-up(flex, center);
+    @include round-up-cards(100px, 2000px);
+    background-color:$form-section-color;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+.form-div {
+    @include flex-it-up(flex, center);
+    @include round-up-cards(100px, 100px);
+    
+
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: $ghost-me-white;
+
+}
+
+
+/* 
+    Bottom Section. 
+    Settings and footers 
+*/
+
+.bottom-links-section {
+    @include flex-it-up(flex, space-evenly);    
+    @include round-up-cards(100px, 150px);
+    background-color: $ghost-me-white;
+
+    padding: 10px;
+
+}
+
+
+/*
+    Footer Section
+*/
+
+.footer-section {
+    @include flex-it-up(flex, space-between);
+    border-color: $footer-color;
+    border-radius: 50px;
+    align-content: baseline;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: left;
+
+}
+
+/*
+    Chat-box button
+*/
+.chat-box-section {
+    position: fixed;
+    bottom:10px;
+    right: 16px;
+
+}

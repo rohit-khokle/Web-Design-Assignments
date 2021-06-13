@@ -1,0 +1,162 @@
+/*
+    Setting up basics
+        1. Home-background
+        2. Header section 
+        3. Pricing Tabs
+        4. Bottom Section
+
+*/
+
+section {
+    text-align: center; 
+}
+
+
+/*
+    Home page background
+*/
+.home-background {
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.993);
+
+}
+
+/*
+    Header section for the page. Adding padding and border-radius
+*/ 
+
+.header-section {
+    padding: 10px;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 1px;
+}
+
+.welcome-span {
+    text-align: left;
+}
+
+.contact-info-span {
+    text-align: right;
+}
+
+
+.home-section {
+    background-color: #11ABB0;
+    padding: 10px;
+    border-width: 1px;
+
+}
+
+.services-section {
+    background-color: ghostwhite;
+    padding: 100px;
+}
+
+.nav-tab {
+
+    padding: 10px;
+    border-width: 1px;
+
+}
+
+.offer-section {
+    background-color: #11ABB0;
+    padding: 10px;
+    border-width: 1px;
+
+
+}
+
+/* Pricing table settings  */
+
+.pricing-tab {
+    background-color: white;
+    border-style: solid;
+    cursor: pointer;
+    font: 16px/30px 'opensans-bold', sans-serif;
+    color: black;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 38em;
+
+}
+
+[div-type="card"]:hover {
+
+    border-color: #11ABB0;
+   
+
+}
+
+
+    /* Divs section. Combinators demo */
+    .services-blocks div {
+        width: 500px;
+        height: 500px;
+        margin-left: 38em;
+
+   
+    }
+    .services-blocks > div:hover {
+        border-color: #11ABB0;
+        background-color :rgba(143,150,162,0.5) ;
+       
+       
+    }
+
+
+/* Form Settings */
+
+input, textarea {
+
+    padding: 20px;
+    margin: 10px;
+    background-color:rgb(228, 222, 222);
+    border-radius: 10px;
+    
+}
+
+form {
+    border-style: solid;
+    background-color: white;
+  
+}
+
+.form-section {
+    padding: 100px;
+    background-color:rgb(240, 240, 255);
+    margin-left: 30em;
+    margin-right: 31em;
+
+}
+
+.form-div {
+    padding: 100px;
+    width: 500px;
+    height: 500px;
+    background-color: ghostwhite;
+    
+  
+}
+
+
+/* Bottom Section. Settings and footers */
+
+.bottom-links-section {
+
+    background-color: ghostwhite;
+    padding: 10px;
+
+}
+
+
+.footer-section {
+    padding: 10px;
+    border-style: solid;
+    border-color: slategray;
+    border-width: 1px;
+    text-align: left;
+}

@@ -1,0 +1,105 @@
+
+.labelHeading {
+    font-size: larger;
+}
+
+.outerContainer{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.toolsDiv {
+    width:   750px;
+    display: flex;
+    justify-content: flex-start;
+    border:solid 1px #ddd;
+    background:#f4f4f4;
+    padding: 5px;
+    border-radius:3px;
+}
+.toolsDiv > span
+{
+    cursor:pointer;
+}
+
+.toolsDiv > span:hover
+{
+    text-decoration:underline;
+}
+
+
+
+
+.whitespaceDiv{
+    display: flex;
+    justify-content: center;
+}
+.whiteboard {
+    width: 750px;
+    height: 1000px;
+    border-style: solid;
+    border-radius: 5px;
+    padding:10px;
+
+}
+
+.makeMeBold {
+    font-weight: bold;
+}
+.unboldMe {
+    font-weight: normal;
+}
+
+.makeMeNormal {
+    font-weight: normal;
+    font-style : normal;
+}
+
+.makeMeItalic {
+    font-style : italic;
+}
+
+.unItalizeMe {
+    font-style : normal;
+}
+
+.boldButton, .italicsButton {
+    height : 30px;
+    width : 50px;
+    background-color: darkcyan;
+    border-style: solid;
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: medium;
+    box-shadow: 5px 10px 8px #888888;
+    font-weight: bold;
+}
+.italicsButton {
+    font-style : italic;
+}
+.selectFontSize {
+    height : 30px;
+    width : 50px;
+    background-color: floralwhite;
+    border-style: solid;
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: medium;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+
+

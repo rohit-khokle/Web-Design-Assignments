@@ -1,0 +1,6 @@
+# ignore all logs and node_modules
+
+/logs
+/node_modules
+**/logs
+/,vscode

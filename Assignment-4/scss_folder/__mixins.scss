@@ -1,0 +1,25 @@
+@mixin flex-it-up($display, $justify) {
+    
+    @if ($display != flex)
+    {
+        @error "Property #{$display} must be flex only.";    
+    
+    }
+    display: $display;
+    justify-content: $justify;
+
+
+}
+
+@mixin round-up-cards($margin  , $radius) {
+
+    
+    margin: $margin;
+    border-radius: $radius;
+}
+
+@mixin transform($property) {
+    -webkit-transform: $property;
+    -ms-transform: $property;
+     transform: $property;
+  }

@@ -1,0 +1,45 @@
+[
+    {
+        "id" : 1,
+        "title": "Get Groceries",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "date": "20 th Feb 2021",
+        "time": "10:00 AM",
+        "status" : "OPEN"
+    },
+    {
+        "id" : 2,
+        "title": "Assignment deadline",
+        "description": "Integer in ultrices ante. Nunc interdum blandit rhoncus.",
+        "date": "22 nd Feb 2021",
+        "time": "01:00 PM",
+        "status" : "OPEN"
+    },
+    {
+        "id" : 3,
+        "title": "Return Amazon package",
+        "description": "Aliquam elit diam, condimentum ut dapibus eget, posuere et elit.",
+        "date": "20 th Nov 2020",
+        "time": "05:00 PM",
+        "status" : "DONE"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> My note </title>
+        <link rel="stylesheet" href="./dis/main.css" />
+        <script> </script>
+    </head>
+    <body>
+    
+        <div class="outerContainer">
+            <label class="labelHeading"><b> My Notes </b></label>
+         <div class="toolsDiv">
+            <button  class="boldButton">B</button>
+            <button  class="italicsButton">I</button>
+            <select class="selectFontSize"> 
+                <option value="16"> 2 </option>
+                <option value="22"> 3 </option>
+                <option value="28"> 5 </option>
+                <option value="34"> 8 </option>
+                <option value="40"> 10 </option>
+            </select>
+        </div>
+        <div class="whitespaceDiv">    
+            <div  class="whiteboard" contenteditable="true"></div>
+        </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rxjs/6.5.2/rxjs.umd.js"></script>
+        <script type="module" src="./js/control-script.js"></script>
+
+    </body>
+</html>

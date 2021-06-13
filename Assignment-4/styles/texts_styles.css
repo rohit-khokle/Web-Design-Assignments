@@ -1,0 +1,138 @@
+/*
+    Stylings for:
+        1. Texts, fonts
+        2. Buttons
+
+*/
+
+    /*
+        Setting common font throughout the page
+    */
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    *::selection {
+        background-color: #11ABB0;
+        
+    }
+
+    [text_type^="home-sec"] ::selection {
+
+     background-color: gray;
+
+    }
+
+    [text_type = "color_me"]{
+        color : #11ABB0;
+
+    }
+
+
+    [text_type = "home-section-heading"]{
+        color : #eaf3f3;
+        text-align: left;
+        font: bolder;
+    }
+
+    
+    [text_type = "home-section-para"]{
+        color : #eaf3f3;
+        text-align: left;
+        font: caption;
+    }
+
+    [text_type = "color_me_header"]{
+        color :#11ABB0;
+        text-align: left;
+        font: bolder;
+    }
+    
+
+    [text_type = "nav_bar"]{
+        text-align: right;
+        font: bolder;
+    }
+
+    .make-me-fancy{
+        font: 16px/30px 'opensans-bold', sans-serif;
+        background: #11ABB0;
+        display: inline-block;
+        color: #fff;
+        border: none;
+        padding: 2.5px;   
+    }
+
+    [text_type="about-us-para"]::first-letter {
+        font-size: x-large;
+        
+    }
+
+    /* 
+                 Button settings 
+    */
+
+    [button-type="info-button"]
+    {
+       font: 16px/30px 'opensans-bold', sans-serif;
+       background: #11ABB0;
+       display: inline-block;
+       color: #fff;
+       border: none;
+       cursor: pointer;
+       border-radius: 30px;
+       margin-bottom: 18px;
+       padding: 10px;
+
+    }
+
+    [button-type="get-in-touch-button"]
+    {
+       font: 16px/30px 'opensans-bold', sans-serif;
+       background: #eff5f5;
+       display: inline-block;
+       color: rgb(8, 8, 8);
+       border: none;
+       cursor: pointer;
+       border-radius: 30px;
+       margin-bottom: 18px;
+       
+    }
+
+    [button-type="buy-button"]
+    {
+        cursor: pointer;
+        font: 16px/30px 'opensans-bold', sans-serif;
+        background: #11ABB0;
+        display: inline-block;
+        color: #fff;
+        border: ghostwhite;
+        cursor: pointer;
+
+        padding-top: 0.5em;
+        padding-bottom: 1px;
+        padding-left: 11em;
+        padding-right: 11em;
+
+
+    }
+    
+    .button:hover,
+    button:hover {
+       background: #3d4145;
+       color: #fff;
+    }
+    
+    .button:active,
+    button:active {
+       background: #3d4145;
+       color: #fff;
+    }
+    
+    .button.full-width,
+    button.full-width{
+        width: 100%;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center;
+    }
+    
